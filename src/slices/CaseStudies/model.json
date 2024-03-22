@@ -36,7 +36,10 @@
           "type": "Link",
           "config": {
             "label": "Case Study",
-            "select": "document"
+            "select": "document",
+            "customtypes": [
+              "case_study"
+            ]
           }
         }
       }

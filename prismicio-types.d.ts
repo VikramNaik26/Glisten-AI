@@ -420,7 +420,7 @@ export interface CaseStudiesSliceDefaultItem {
    * - **API ID Path**: case_studies.items[].case_study
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  case_study: prismic.ContentRelationshipField
+  case_study: prismic.ContentRelationshipField<'case_study'>
 }
 
 /**
