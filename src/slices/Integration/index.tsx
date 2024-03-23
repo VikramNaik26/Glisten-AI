@@ -68,7 +68,7 @@ const Integration = ({ slice }: IntegrationProps): JSX.Element => {
         <div className="mt-20 flex flex-col items-center md:flex-row">
           {slice.items.map((item, index) => {
             return (
-              <React.Fragment>
+              <React.Fragment key={index}>
                 {index === Math.floor(slice.items.length / 2) && (
                   <>
                     <StylizedLogoMark />
